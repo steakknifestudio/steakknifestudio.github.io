@@ -1,0 +1,56 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.19),rgba(0, 0, 0, 0.49)), url('https://source.unsplash.com/-WW8jBak7bo'), no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+.is-outlined {
+  background-color:transparent;
+  color:#fff;
+}
+.panel-block.section p {
+  font-size: 17px;
+  line-height: 1.4;
+  color:#95A5A6;
+}
+.section.main {
+  background-color:#553285;
+}
+.icon-block {
+  font-size:5em;
+}
+.nav { position: fixed !important; top: 0; left: 0; right: 0; }
+
+.white{color:white;}
+
+.hero-body{
+  align-items:center;
+  display:flex;
+}
+
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
